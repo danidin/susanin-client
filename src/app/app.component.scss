@@ -1,4 +1,15 @@
+:host {
+  padding: 10px;  
+}
+
 button, p {
   margin: 0 4px;
   display: inline;
+}
+
+li, form {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  margin: 2px 0;
 }
